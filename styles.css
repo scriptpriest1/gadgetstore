@@ -88,9 +88,9 @@ body {
 .container-fluid {
   padding: 0 !important;
   margin: 0 !important;
-  max-height: 100% !important;
+  height: 100% !important;
   background-color: var(--bg-color);
-  /* height: 100vh; */
+  /* overflow-x: hidden; */
 }
 
 a,
@@ -152,6 +152,12 @@ button {
   color: var(--text-light-color);
 }
 
+@media screen and (max-width: 767px) {
+  .section-container {
+    padding: 60px 15px;
+  }
+}
+
 /* HEADER */
 
 #site-header {
@@ -161,7 +167,6 @@ button {
   background-color: var(--bg-color);
   padding: var(--header-padding) !important;
   border-bottom: var(--border-color);
-  overflow: hidden;
 }
 
 #site-header a {
@@ -189,6 +194,36 @@ button {
 #site-header .cta-btn * {
   fill: var(--text-color);
   color: var(--text-color);
+}
+
+@media screen and (max-width: 767px) {
+  #site-header .navbar {
+    position: fixed;
+    right: 100%;
+    top: 0;
+    width: 100%;
+    background-color: var(--bg-color);
+    height: 100%;
+    padding: 15px !important;
+  }
+
+  #site-header .navbar ul {
+    width: 100%;
+    gap: 5px !important;
+    height: 100%;
+  }
+
+  #site-header .navbar ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #site-header .navbar ul li a.shop-now-link {
+    width: fit-content;
+    margin-top: 10px;
+    padding: 0;
+  }
 }
 
 /* HERO SECTION */

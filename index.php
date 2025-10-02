@@ -34,22 +34,34 @@
 
     <!-- SITE HEADER -->
     <header id="site-header" class="row p-0 m-0 justify-content-between">
-      <div class="site-id col-md-4 d-flex align-items-center gap-2 p-0">
+      <div class="site-id col-md-4 col-6 d-flex align-items-center gap-2 p-0">
         <a href="">
-          <h1 class="fs-4 m-0 p-0 fw-bold" style="width: fit-content;">Blackii's Gadgets</h1>
+          <h1 class="fs-4 m-0 p-0 fw-bold d-none d-md-block" style="width: fit-content;">Blackii's Gadgets</h1>
+          <h1 class="fs-4 m-0 p-0 fw-bold d-md-none" style="width: fit-content;">BG</h1>
         </a>
       </div>
 
       <nav class="navbar p-0 m-0 col-md-4 p-0">
-        <ul class="d-flex align-items-center gap-4 p-0 m-auto">
+        <ul class="d-flex flex-column flex-md-row align-items-md-center gap-4 p-0 m-md-auto">
           <li><a href="">FAQ</a></li>
           <li><a href="">Contact Us</a></li>
-          <li class="d-md-none"><a href="" class="btn">Shop now</a></li>
+          <li class="d-md-none">
+            <a href="" class="shop-now-link">
+              <button class="cta-btn">
+                <span>Shop now</span>
+                <span class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="">
+                    <path d="M646-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h446L532-634q-12-12-11.5-28t11.5-28q12-12 28.5-12.5T589-691l183 183q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L589-269q-12 12-28.5 11.5T532-270q-11-12-11.5-28t11.5-28l114-114Z" />
+                  </svg>
+                </span>
+              </button>
+            </a>
+          </li>
         </ul>
       </nav>
 
       <!-- Utils bar -->
-      <div class="utils-bar d-flex align-items-center gap-3 col-md-4 p-0">
+      <div class="utils-bar d-flex align-items-center gap-3 col-md-4 col-6 p-0">
         <!-- <div class="search-bar d-flex align-items-center gap-2">
           <input type="text" class="form-control" placeholder="Search phones and accessories" />
           <button type="submit">Go</button>
@@ -57,7 +69,7 @@
 
         <nav class="d-flex align-items-center gap-3 ms-auto">
           <a href="" class="">Cart</a>
-          <a href="">
+          <a href="" class="d-none d-md-block">
             <button class="cta-btn m-0 d-flex align-items-center gap-2">
               <span>Shop now</span>
               <span class="icon">
