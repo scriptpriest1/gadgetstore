@@ -158,10 +158,6 @@ button {
   .section-container {
     padding: 60px 20px;
   }
-  .text-box .heading {
-    color: var(--text-color);
-    font-size: 28px;
-  }
 }
 
 /* HEADER */
