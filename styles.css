@@ -160,6 +160,9 @@ button {
   .text-box {
     max-width: 300px;
   }
+  .text-box .heading {
+    font-size: 28px;
+  }
 }
 
 /* HEADER */
