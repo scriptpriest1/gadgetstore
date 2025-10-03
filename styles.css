@@ -237,7 +237,7 @@ button {
 }
 
 .hero .text-box .heading {
-  font-size: 42px;
+  font-size: 38px;
 }
 
 .hero .text-box .subtext {
@@ -473,6 +473,9 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .contact-section .text-box {
+    margin: auto;
+  }
   .contact-section .divider {
     width: 100%;
   }
