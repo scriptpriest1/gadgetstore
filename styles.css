@@ -158,10 +158,10 @@ button {
     padding: 60px 20px;
   }
   .text-box {
-    max-width: 300px;
+    max-width: 400px;
   }
   .text-box .heading {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
