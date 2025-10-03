@@ -236,6 +236,14 @@ button {
   margin: auto;
 }
 
+.hero .text-box .heading {
+  font-size: 42px;
+}
+
+.hero .text-box .subtext {
+  font-size: 18px;
+}
+
 .hero .search-form .search-btn {
   background-color: var(--secondary-color);
   color: var(--text-color);
