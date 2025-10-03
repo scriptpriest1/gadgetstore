@@ -158,9 +158,8 @@ button {
     padding: 60px 20px;
   }
   .text-box {
-  max-width: 300px;
-  margin: auto;
-}
+    max-width: 300px;
+  }
 }
 
 /* HEADER */
