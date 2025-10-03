@@ -126,7 +126,7 @@
       <div class="text-box">
         <h2 class="text-center heading">Irreplaceable offerings for our Customers</h2>
       </div>
-      <div class="card-container d-flex align-items-center gap-4 justify-content-between">
+      <div class="card-container d-flex flex-column flex-md-row align-items-center gap-4 justify-content-between">
         <div class="card">
           <h6 class="heading">Buy</h6>
           <p>Feature one 1 paragraph says this.</p>
@@ -393,7 +393,7 @@
         <h2 class="text-center heading">Want to sell or swap your Phones and Gadgets?</h2>
         <p class="text-center subtext">Reach out to us through our Whatsapp handle with the pictures and description of your gadgets.</p>
       </div>
-      <a href="" style="display: inline-block; transform: translateX(-50%); margin-left: 50%;">
+      <a href="" style="display: block; margin: auto; width: fit-content;">
         <button type="button" class="d-flex align-items-center gap-2 connect-btn">
           <span class="icon mb-1">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px">
@@ -407,11 +407,11 @@
 
     <section class="section-container contact-section">
 
-      <div class="d-flex gap-4 align-items-start">
+      <div class="d-md-flex gap-4 align-items-start">
         <div class="column w-100">
           <div class="text-box m-0">
-            <h2 class="heading">Contact Us</h2>
-            <p class="subtext m-0">If you can't find what you're looking for or you want to make enquiries, sending us a message through the Contact Form and we will respond within <span class="time-interval">48 hours.</span></p>
+            <h2 class="heading text-center text-md-start">Contact Us</h2>
+            <p class="subtext text-center text-md-start m-0">If you can't find what you're looking for or you want to make enquiries, send us a message through the Contact Form and we will respond within <span class="time-interval">48 hours.</span></p>
           </div>
 
           <div class="divider d-none d-md-flex align-items-center gap-2">
@@ -451,7 +451,7 @@
         </div>
 
         <div class="column w-100">
-          <form class="contact-form mt-3">
+          <form class="contact-form mt-4 mt-md-3">
             <div class="form-group">
               <label for="email">Your email:</label>
               <input type="email" name="email" id="email" class="form-control" required>
@@ -473,18 +473,30 @@
 
           <div class="contact-channels d-md-none">
             <div class="call channel">
-              <span class="icon"></span>
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="">
+                  <path d="M763-145q-121-9-229.5-59.5T339-341q-86-86-135.5-194T144-764q-2-21 12.29-36.5Q170.57-816 192-816h136q17 0 29.5 10.5T374-779l24 106q2 13-1.5 25T385-628l-97 98q20 38 46 73t57.97 65.98Q422-361 456-335.5q34 25.5 72 45.5l99-96q8-8 20-11.5t25-1.5l107 23q17 5 27 17.5t10 29.5v136q0 21.43-16 35.71Q784-143 763-145ZM255-600l70-70-17.16-74H218q5 38 14 73.5t23 70.5Zm344 344q35.1 14.24 71.55 22.62Q707-225 744-220v-90l-75-16-70 70ZM255-600Zm344 344Z" />
+                </svg>
+              </span>
               <a href="tel:+2347067381950">+234 706 7381 950</a>
             </div>
 
             <div class="email channel">
-              <span class="icon"></span>
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="">
+                  <path d="M168-192q-29.7 0-50.85-21.16Q96-234.32 96-264.04v-432.24Q96-726 117.15-747T168-768h624q29.7 0 50.85 21.16Q864-725.68 864-695.96v432.24Q864-234 842.85-213T792-192H168Zm312-240L168-611v347h624v-347L480-432Zm0-85 312-179H168l312 179Zm-312-94v-85 432-347Z" />
+                </svg>
+              </span>
               <a href="mailto:email@example.com">email@example.com</a>
             </div>
 
             <div class="office channel">
-              <span class="icon"></span>
-              <p class="p-0 m-0">45 Adeola Odeku Street, Victoria Island, Lagos, Nigeria</p>
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="">
+                  <path d="M480.21-480Q510-480 531-501.21t21-51Q552-582 530.79-603t-51-21Q450-624 429-602.79t-21 51Q408-522 429.21-501t51 21ZM480-191q119-107 179.5-197T720-549q0-105-68.5-174T480-792q-103 0-171.5 69T240-549q0 71 60.5 161T480-191Zm0 95Q323.03-227.11 245.51-339.55 168-452 168-549q0-134 89-224.5T479.5-864q133.5 0 223 90.5T792-549q0 97-77 209T480-96Zm0-456Z" />
+                </svg>
+              </span>
+              <p class="p-0 m-0">Blackii's Gadgets Store, Futo Road, Eziobodo, Imo, Nigeria</p>
             </div>
           </div>
         </div>
@@ -530,7 +542,7 @@
         </div>
 
         <div class="quick-links-bar d-flex align-items-center gap-3 justify-content-center mb-4">
-          <a href="" class="link">Privary Policy</a>
+          <a href="" class="link">Privacy Policy</a>
           <a href="" class="link">Terms and Conditions</a>
         </div>
 

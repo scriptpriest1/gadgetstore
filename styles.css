@@ -138,6 +138,7 @@ button {
 .section-container {
   padding: 60px 80px;
   margin: 0 !important;
+  overflow: hidden;
 }
 
 .text-box {
@@ -284,6 +285,10 @@ button {
   font-size: 15px;
 }
 
+.features-section .card-container, .features-section .card-container .card {
+  width: 100%;
+}
+
 /* GADGETS SLIDESHOW SECTION */
 
 .gadget-slide-section .sub-section {
@@ -388,7 +393,7 @@ button {
 }
 
 .contact-section .divider {
-  width: 50%;
+  width: 150px;
   margin: 10px 0;
 }
 
@@ -407,7 +412,7 @@ button {
   display: flex;
   align-items: center;
   gap: 4px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .contact-section .contact-channels .channel * {
@@ -454,6 +459,20 @@ button {
   border-radius: 50px;
   padding: 3px 10px;
   background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 767px) {
+  .contact-section .divider {
+    width: 100%;
+  }
+
+  .contact-section .contact-channels .channel {
+    align-items: start;
+  }
+
+  .contact-section .address-map {
+    height: 300px;
+  }
 }
 
 /* FOOTER SECTION */
