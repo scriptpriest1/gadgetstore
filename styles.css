@@ -148,7 +148,7 @@ button {
 
 .text-box .heading {
   color: var(--text-color);
-  font-size: 33px;
+  font-size: 33px !important;
 }
 .text-box .subtext {
   color: var(--text-light-color);
