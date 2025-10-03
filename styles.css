@@ -285,8 +285,11 @@ button {
   font-size: 15px;
 }
 
-.features-section .card-container, .features-section .card-container .card {
-  width: 100%;
+@media screen and (max-width: 767px) {
+  .features-section .card-container,
+  .features-section .card-container .card {
+    width: 100%;
+  }
 }
 
 /* GADGETS SLIDESHOW SECTION */
