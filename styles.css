@@ -40,7 +40,7 @@
   /* Others */
   --box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   --box-shadow-heavy: 0 5px 20px rgba(0, 0, 0, 0.3);
-  --header-padding: 15px;
+  --header-padding: 15px 20px;
 }
 
 html,
@@ -155,7 +155,7 @@ button {
 
 @media screen and (max-width: 767px) {
   .section-container {
-    padding: 60px 15px;
+    padding: 60px 20px;
   }
 }
 
@@ -237,7 +237,7 @@ button {
 }
 
 .hero .text-box .heading {
-  font-size: 38px;
+  font-size: 36px;
 }
 
 .hero .text-box .subtext {
