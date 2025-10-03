@@ -157,6 +157,10 @@ button {
   .section-container {
     padding: 60px 20px;
   }
+  .text-box {
+  max-width: 300px;
+  margin: auto;
+}
 }
 
 /* HEADER */
