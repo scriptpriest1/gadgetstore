@@ -159,6 +159,7 @@ button {
   }
   .text-box .heading {
     font-size: 28px;
+    /* padding: 0 10px; */
   }
 }
 
