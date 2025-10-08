@@ -8,12 +8,12 @@
 :root {
   /* Root colors */
   --primary-color: #000000;
-  --secondary-color: #ffbf00;
-  --sec-color-transparent: #ffbf0060;
+  --secondary-color: #f1d907;
+  --sec-color-transparent: #f1d90760;
 
   /* Background */
   --bg-color: #ffffff;
-  --bg-hover-color: #f0f0f0;
+  --accent-color: #f0f0f0;
   --border-color: #ebebeb;
 
   /* Text colors */
@@ -41,6 +41,8 @@
   --box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   --box-shadow-heavy: 0 5px 20px rgba(0, 0, 0, 0.3);
   --header-padding: 15px 20px;
+  --btn-padding: 10px 20px;
+  --sm-btn-padding: 6px 12px;
 }
 
 html,
@@ -130,7 +132,7 @@ textarea::placeholder {
 }
 
 button {
-  padding: 10px 20px;
+  padding: var(--btn-padding);
   border: none;
   border-radius: 5px;
 }
@@ -308,61 +310,64 @@ button {
   }
 }
 
-/* GADGETS SLIDESHOW SECTION */
+/* PRODUCTS SLIDESHOW SECTION */
 
-.gadget-slide-section .sub-section {
+.product-slide-section .sub-section {
   margin-top: 30px;
 }
 
-.gadget-slide-section .sub-section:last-child {
+.product-slide-section .sub-section:last-child {
   margin-bottom: 0;
 }
 
-.gadget-slide-section .swiper-wrapper {
+.product-slide-section .swiper-wrapper {
   display: flex;
   align-items: center;
 }
 
-.gadget-slide-section .swiper-btn {
+.product-slide-section .swiper-btn {
   width: 40px;
   height: 40px;
   z-index: 2 !important;
 }
 
-.gadget-slide-section .swiper-btn::after {
+.product-slide-section .swiper-btn::after {
   font-size: 18px;
   transform: scale(0.5) !important;
 }
 
-.gadget-slide-section .swiper-wrapper .card {
+div.product {
   flex: 0 0 auto;
-  width: 170px;
-  height: 256px;
+  width: 185px;
+  height: 292px;
   border-radius: 10px;
   border: 1px solid var(--border-color);
   overflow: hidden;
+  position: relative;
 }
 
-.gadget-slide-section .swiper-wrapper .card .img-box {
+div.product .img-box {
   height: 170px;
-  background-color: var(--bg-hover-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
-.gadget-slide-section .swiper-wrapper .card .text-container {
+div.product .text-container {
   padding: 11px;
 }
 
-.gadget-slide-section .swiper-wrapper .card .text-container .gadget-name {
+div.product .text-container .product-name {
   color: var(--text-color);
   margin-bottom: 3px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 15px;
 }
 
-.gadget-slide-section .swiper-wrapper .card .text-container .description {
+div.product .text-container .description {
   color: var(--text-light-color);
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
   overflow: hidden;
   display: -webkit-box;
@@ -371,7 +376,20 @@ button {
   -webkit-line-clamp: 2;
 }
 
-.gadget-slide-section .swiper-wrapper .card .price-tag {
+div.product .text-container footer {
+ position: absolute;
+ bottom: 11px;
+ left: 11px;
+ right: 11px;
+}
+
+div.product .text-container .add-to-cart-btn {
+  background-color: var(--accent-color);
+  font-size: 14px;
+  padding: var(--sm-btn-padding);
+}
+
+div.product .price-tag {
   color: var(--text-color);
   font-size: 12px;
   font-weight: bold;
@@ -500,7 +518,7 @@ button {
 /* FOOTER SECTION */
 
 .footer-section {
-  /* background-color: var(--bg-hover-color); */
+  /* background-color: var(--accent-color); */
 }
 
 .footer-section .footer-inner {
@@ -533,7 +551,7 @@ button {
 }
 
 .footer-section .social-handles .icon:hover {
-  background-color: var(--bg-hover-color) !important;
+  background-color: var(--accent-color) !important;
 }
 
 .footer-section .social-handles .icon svg {
@@ -545,4 +563,22 @@ button {
   font-size: 14px;
   color: var(--text-lighter-color);
   padding: 0 !important;
+}
+
+
+/*****************************************************
+                      SHOP PAGE
+*****************************************************/
+
+.catalog-section .top-bar .filter-dropdown, .catalog-section .top-bar .search-form {
+  width: auto;
+}
+
+.catalog-section .catalog {
+  display: flex;
+  gap: 20px;
+}
+
+.catalog-section .catalog .product {
+  flex: 1 ;
 }
