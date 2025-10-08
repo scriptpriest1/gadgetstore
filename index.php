@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include_once 'header.php';
 ?>
 
 <!-- HERO SECTION -->
@@ -369,7 +369,7 @@ include 'header.php';
   </a>
 </section>
 
-<section class="section-container contact-section">
+<section id="contact" class="section-container contact-section">
 
   <div class="d-md-flex gap-4 align-items-start">
     <div class="column w-100">

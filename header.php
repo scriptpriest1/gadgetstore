@@ -1,3 +1,7 @@
+<?php
+define('BASE_URL', 'http://blackiisgadgets.localhost/');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +39,7 @@
     <!-- SITE HEADER -->
     <header id="site-header" class="row p-0 m-0 justify-content-between">
       <div class="site-id col-md-4 col-6 d-flex align-items-center gap-2 p-0">
-        <a href="">
+        <a href="<?= BASE_URL ?>">
           <h1 class="fs-4 m-0 p-0 fw-bold d-none d-md-block" style="width: fit-content;">Blackii's Gadgets</h1>
           <h1 class="fs-4 m-0 p-0 fw-bold d-md-none" style="width: fit-content;">BG</h1>
         </a>
@@ -48,8 +52,8 @@
           </svg>
         </button>
         <ul class="d-flex flex-column flex-md-row align-items-center gap-4 p-0 m-auto">
-          <li><a href="">FAQ</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="<?= BASE_URL ?>#faq">FAQ</a></li>
+          <li><a href="<?= BASE_URL ?>#contact">Contact Us</a></li>
           <li class="d-md-none mt-2">
             <a href="shop.php" class="shop-now-link">
               <button class="cta-btn">

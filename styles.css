@@ -582,3 +582,10 @@ div.product .price-tag {
 .catalog-section .catalog .product {
   flex: 1 ;
 }
+
+.catalog-section .top-bar .search-btn {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-radius: 0 5px 5px 0;
+  padding: 8px 12px;
+}

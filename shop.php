@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include_once 'header.php';
 ?>
 
 <section class="hero section-container">
@@ -118,3 +118,7 @@ include 'header.php';
 
   </div>
 </section>
+
+<?php
+include_once 'footer.php';  
+?>
