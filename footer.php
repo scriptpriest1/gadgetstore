@@ -47,6 +47,8 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <!-- Swiper JS CDN -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Bootstrap TouchSpin JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.3.0/jquery.bootstrap-touchspin.min.js"></script>
 <!-- Custom JS File-->
 <script src="swiper.js"></script>
 <script src="script.js"></script>

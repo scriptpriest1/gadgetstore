@@ -2,7 +2,7 @@
 include_once 'header.php';
 ?>
 
-<section class="hero section-container">
+<section class="shoppage-hero section-container">
   <div class="text-box">
     <h2 class="text-center heading">Shop</h2>
   </div>

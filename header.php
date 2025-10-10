@@ -26,10 +26,10 @@ define('BASE_URL', 'http://blackiisgadgets.localhost/');
   <link rel="stylesheet" href="styles.css">
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-
   <!-- Swiper JS Bootsrap -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
+  <!-- Bootstrap TouchSpin CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.3.0/jquery.bootstrap-touchspin.min.css">
 </head>
 
 <body>

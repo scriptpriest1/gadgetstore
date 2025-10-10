@@ -135,6 +135,11 @@ button {
   padding: var(--btn-padding);
   border: none;
   border-radius: 5px;
+  background-color: var(--accent-color);
+}
+
+span.icon {
+  margin: 0;
 }
 
 .section-container {
@@ -570,6 +575,11 @@ div.product .price-tag {
                       SHOP PAGE
 *****************************************************/
 
+.shoppage-hero {
+  background: url('img/shopping-bg.jpg') no-repeat center;
+  background-size: cover;
+}
+
 .catalog-section .top-bar .filter-dropdown, .catalog-section .top-bar .search-form {
   width: auto;
 }
@@ -589,3 +599,47 @@ div.product .price-tag {
   border-radius: 0 5px 5px 0;
   padding: 8px 12px;
 }
+
+
+/*****************************************************
+                   PRODUCT PAGE
+*****************************************************/
+.product-quantity .btn {
+  background-color: var(--accent-color) !important;
+  color: var(--text-color) !important;
+  padding: 1px 10px !important;
+  font-size: 20px !important;
+  border-radius: 5px !important;
+  border: none !important;
+}
+.product-quantity .btn-increase {
+  background-color: var(--primary-color) !important;
+  color: var(--alt-text-color) !important;
+}
+
+.product-quantity input::-webkit-inner-spin-button,
+.product-quantity input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.product-quantity input {
+  -moz-appearance: textfield;
+}
+
+.product-preview-section .details-container .btn-group .order-btn {
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+.product-preview-section .details-container .btn-group button, .icon {
+  fill: initial;
+}
+
+@media screen and (max-width: 767px) {
+  .product-preview-section .details-container .btn-group button {
+    width: 100%;
+  }
+}
+
