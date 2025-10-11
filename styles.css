@@ -40,7 +40,8 @@
   /* Others */
   --box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   --box-shadow-heavy: 0 5px 20px rgba(0, 0, 0, 0.3);
-  --header-padding: 15px 20px;
+  --header-padding: 10px 20px;
+  --sm-header-padding: 15px 20px;
   --btn-padding: 10px 20px;
   --sm-btn-padding: 6px 12px;
 }
@@ -209,6 +210,10 @@ span.icon {
 }
 
 @media screen and (max-width: 767px) {
+  #site-header {
+    padding: var(--sm-header-padding);
+  }
+
   #site-header .navbar {
     position: fixed;
     left: 0;
@@ -382,10 +387,10 @@ div.product .text-container .description {
 }
 
 div.product .text-container footer {
- position: absolute;
- bottom: 11px;
- left: 11px;
- right: 11px;
+  position: absolute;
+  bottom: 11px;
+  left: 11px;
+  right: 11px;
 }
 
 div.product .text-container .add-to-cart-btn {
@@ -570,17 +575,17 @@ div.product .price-tag {
   padding: 0 !important;
 }
 
-
 /*****************************************************
                       SHOP PAGE
 *****************************************************/
 
 .shoppage-hero {
-  background: url('img/shopping-bg.jpg') no-repeat center;
+  background: url("img/shopping-bg.jpg") no-repeat center;
   background-size: cover;
 }
 
-.catalog-section .top-bar .filter-dropdown, .catalog-section .top-bar .search-form {
+.catalog-section .top-bar .filter-dropdown,
+.catalog-section .top-bar .search-form {
   width: auto;
 }
 
@@ -590,7 +595,7 @@ div.product .price-tag {
 }
 
 .catalog-section .catalog .product {
-  flex: 1 ;
+  flex: 1;
 }
 
 .catalog-section .top-bar .search-btn {
@@ -599,7 +604,6 @@ div.product .price-tag {
   border-radius: 0 5px 5px 0;
   padding: 8px 12px;
 }
-
 
 /*****************************************************
                    PRODUCT PAGE
@@ -633,7 +637,8 @@ div.product .price-tag {
   border: none;
 }
 
-.product-preview-section .details-container .btn-group button, .icon {
+.product-preview-section .details-container .btn-group button,
+.icon {
   fill: initial;
 }
 
@@ -642,4 +647,3 @@ div.product .price-tag {
     width: 100%;
   }
 }
-

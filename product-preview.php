@@ -11,7 +11,7 @@ include_once 'header.php';
     </div>
     <div class="details-container col-12 col-md-8">
       <h3 class="product-title mb-3">iPhone 15 Pro Max</h3>
-      <p class="product-description mb-3"><strong>Speciications: </strong> <span class="specs">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</span>
+      <p class="product-description mb-3"><strong>Specifications: </strong> <span class="specs">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</span>
       </p>
       <p class="product-price mb-3"><strong>Price: </strong>&#8358;<span>1,400,000.00</span></p>
       <div class="product-quantity mb-3 d-flex align-items-center gap-2">

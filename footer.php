@@ -1,6 +1,6 @@
 <footer class="section-container footer-section py-0">
   <div class="footer-inner">
-    <h1 class="site-logo fs-4 mx-auto p-0 fw-bold mb-4" style="width: fit-content;">Blackii's Gadgets</h1>
+    <h1 class="site-logo fs-5 mx-auto p-0 fw-bold mb-4" style="width: fit-content;">Blackii's Gadgets</h1>
 
     <div class="social-handles d-flex align-items-center justify-content-center gap-3 mb-4">
       <a href="" class="icon facebook">

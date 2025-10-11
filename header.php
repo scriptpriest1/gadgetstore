@@ -39,9 +39,9 @@ define('BASE_URL', 'http://blackiisgadgets.localhost/');
     <!-- SITE HEADER -->
     <header id="site-header" class="row p-0 m-0 justify-content-between">
       <div class="site-id col-md-4 col-6 d-flex align-items-center gap-2 p-0">
-        <a href="<?= BASE_URL ?>">
-          <h1 class="fs-4 m-0 p-0 fw-bold d-none d-md-block" style="width: fit-content;">Blackii's Gadgets</h1>
-          <h1 class="fs-4 m-0 p-0 fw-bold d-md-none" style="width: fit-content;">BG</h1>
+        <a href="<?= BASE_URL ?>" class="nav-link">
+          <h1 class="fs-5 m-0 p-0 fw-bold d-none d-md-block" style="width: fit-content;">Blackii's Gadgets</h1>
+          <h1 class="fs-5 m-0 p-0 fw-bold d-md-none" style="width: fit-content;">BG</h1>
         </a>
       </div>
 
@@ -52,10 +52,10 @@ define('BASE_URL', 'http://blackiisgadgets.localhost/');
           </svg>
         </button>
         <ul class="d-flex flex-column flex-md-row align-items-center gap-4 p-0 m-auto">
-          <li><a href="<?= BASE_URL ?>#faq">FAQ</a></li>
-          <li><a href="<?= BASE_URL ?>#contact">Contact Us</a></li>
+          <li><a href="<?= BASE_URL ?>#faq" class="nav-link">FAQ</a></li>
+          <li><a href="<?= BASE_URL ?>#contact" class="nav-link">Contact Us</a></li>
           <li class="d-md-none mt-2">
-            <a href="shop.php" class="shop-now-link">
+            <a href="shop.php" class="shop-now-link nav-link">
               <button class="cta-btn">
                 <span>Shop now</span>
                 <span class="icon">
@@ -77,8 +77,8 @@ define('BASE_URL', 'http://blackiisgadgets.localhost/');
         </div> -->
 
         <nav class="d-flex align-items-center gap-3 ms-auto">
-          <a href="" class="">Cart</a>
-          <a href="shop.php" class="d-none d-md-block">
+          <a href="" class="nav-link">Cart</a>
+          <a href="shop.php" class="nav-link d-none d-md-block">
             <button class="cta-btn m-0 d-flex align-items-center gap-2">
               <span>Shop now</span>
               <span class="icon">

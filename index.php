@@ -83,7 +83,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -97,7 +97,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -111,7 +111,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -125,7 +125,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -139,7 +139,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -153,7 +153,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -167,7 +167,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -181,7 +181,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>
@@ -195,7 +195,7 @@ include_once 'header.php';
           </div>
           <div class="text-container">
             <h6 class="product-name">iPhone 15 Pro Max</h6>
-            <p class="description">1GB Memory Space, 12000 mAH</p>
+            <p class="description">Apple iPhone 15 Pro Max, 6.7-inch Super Retina XDR display, A17 Pro chip with 6-core GPU, iOS 17, 8GB RAM, storage options: 256GB / 512GB / 1TB, triple 48MP + 12MP + 12MP rear cameras, 12MP front camera, 4K video recording, 5G connectivity, Wi-Fi 6E, Bluetooth 5.3, USB-C port, Face ID, Titanium frame, Ceramic Shield front, IP68 water and dust resistance, 4422mAh battery, fast charging, MagSafe wireless charging.</p>
             <footer class="">
               <button class="add-to-cart-btn w-100">Add to Cart</button>
             </footer>

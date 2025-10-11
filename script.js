@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#site-header .navbar").toggleClass("d-none");
   }
 
-  $(document).on("click", "#site-header .menu-btn", toggleNavbar);
+  $(document).on("click", "#site-header .menu-btn, #site-header .nav-link", toggleNavbar);
 
   $(document).on("click", ".product .img-box", function () {
     // const productId = $(this).data('id');
